@@ -1,0 +1,107 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body, html{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(233, 233, 233);
+}
+.todo_container{
+  width: 100%;
+  padding: 20px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+}
+.input_container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5%;
+}
+.todo_input{
+  padding: 9px 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(233, 233, 233);
+  font-size: 16px;
+  font-weight: bold;
+}
+.todo_input::placeholder{
+  color: rgb(48, 48, 48);
+  font-size: 15px;
+  font-weight: normal;
+}
+.add_btn{
+  padding: 9px 20px;
+  border: 0;
+  background-color: rgb(0, 132, 255);
+  color: white;
+  border-radius: 5px;
+}
+.tasks_list{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.task{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgb(153, 153, 153);
+  padding: 10px 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.delete_btn{
+  background-color: white;
+  border: 0;
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.remove_all_btn{
+  background-color: rgba(255, 0, 0, 0.856);
+  font-size: 18px;
+  color: white;
+  border: 0;
+  padding: 10px;
+  border-radius: 10px;
+}
+.checkbox_container{
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.check_box{
+  border-radius: 50%;
+  margin-right: 10px;
+  padding: 1px;
+}
+.btn_container{
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.edit_btn{
+  background-color: white;
+  border: 0;
+}
